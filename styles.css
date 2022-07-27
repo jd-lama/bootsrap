@@ -1,0 +1,15 @@
+.spacing{
+   
+    justify-content: space-between;
+
+}
+.weights{
+    font-weight: 500;
+}
+.images{
+    border-radius: 50%;
+    width: 50%;
+    height:50%;
+    position: relative;
+    left: 27%;
+}

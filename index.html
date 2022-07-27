@@ -6,45 +6,316 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
-     
-        <a href="#" class="navbar-brand">this is </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">hello</a>
+        <button class="navbar-toggler"  data-toggle="collapse" data-target="#nav-menu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container">
-          <div class="collapse navbar-collapse" id="nav-menu">
+        <div class="navbar-collapse collapse " id="nav-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">hlelo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
 
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">projects</a>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </ul>
         </div>
-       
-     
-      
+      </div>
     </nav>
-<!-- newsletter-->
+
+<section class="bg-dark text-light p-5 text-center">
+  <div class="container">
+    <div class="d-lg-flex">
+        <div class="container">This is the photo of a computer setup <span class="text-danger">Modern</span></div>
+        <img src="./img/download.jpg" alt="photo">
+      
+ 
+    </div>
+  </div>
+</section>
+<!--newspaper-->
+
+<section class="bg-primary p-3 text-center">
 <div class="container">
-  <div class="row">
-    <div class="container">123</div>
-    <div class="container">123</div>
+  <div class="d-md-flex justify-content-between text-center text-light">
+    <div class="container">Click the form to get enrollement</div>
+    <div class="container">
+      <form  class="form-inline p-3">
+
+        <input type="text" class="form-control">
+        <button class="btn btn-outline-sucess border m-5" type="button">Click me</button>
+           </form>
+    </div>
+  
   </div>
 </div>
-    <!-- Optional JavaScript -->
+</section>
+<!--cards-->
+
+<section class="p-5 text-center">
+  <div class="container">
+    <div class="d-md-flex justify-content-between">
+      <div class="card bg-dark text-center align-center text-light mb-3">
+        <div class="h1 mb-3">
+          <i class="bi bi-people"></i>
+        </div>
+        <h3 class="card-title m-3">In person</h3>
+      <p class="card-text mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, autem!</p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+
+      <div class="card bg-dark text-center align-center text-light mb-3">
+        <div class="h1 mb-3">
+          <i class="bi bi-people"></i>
+        </div>
+        <h3 class="card-title ">In person</h3>
+      <p class="card-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, autem!</p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+
+      <div class="card bg-dark text-center align-center text-light mb-3">
+        <div class="h1 mb-3">
+          <i class="bi bi-people"></i>
+        </div>
+        <h3 class="card-title m-3">In person</h3>
+      <p class="card-text mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, autem!</p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+
+         </div>
+  </div>
+</section>
+
+<!--another knowlode-->
+
+<section class="mt-5 text-center text-dark">
+<div class="container d-lg-flex spacing">
+  <div class="container">
+    The knowldge from coding
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime officiis possimus mollitia
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ab?
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, possimus!
+  </div>
+  <img src="./img/download.jpg" alt="" class="mt-4 ">
+</div>
+</section>
+
+<!--
+  react
+-->
+<section class="bg-dark text-center m-5 text-light" >
+  <div class="container  d-md-flex">
+    <div class="container">
+      <h1>React</h1>
+      The knowldge from coding
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime officiis possimus mollitia
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ab?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, possimus!
+    </div>
+    <img src="./img/download.jpg" alt="" class="img-fluid mt-4 mb-3">
+  </div>
+</section>
+<!--later-->
+<section class="bg-light text-center text-dark">
+  <div class="container">
+    <div class="container">
+      <h2 class="weights">Frequently Asked Questions</h2>
+    </div>
+    <div class="accordion bg-light" id="accordions" >
+      
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+              This is the top one
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordions">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, illum?
+        </div>
+      
+      
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+              This is the second one
+            </button>
+          </h5>
+          </div>
+         <div id="collapseTwo" class="collapse" data-parent="#accordions">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis unde totam. Ullam porro officia maiores quasi iste doloremque quae tempore illum molestiae deserunt a repellat accusantium, veritatis exercitationem voluptates.
+          </div>
+        </div>
+      
+      
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link btn-outline-none collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+              This is the third show
+            </button>
+          </h5>
+        </div>
+        <div class="collapse" id="collapseThree" data-parent="#accordions">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quidem quos, totam repudiandae eum saepe expedita. Natus accusamus hic nesciunt labore ullam sed. Perspiciatis nam, voluptatibus molestias expedita cum recusandae!
+          </div>
+        </div>
+      
+    </div>
+   
+  </div>
+</section>
+<!--instructor cards-->
+
+<section class="bg-primary text-center text-light">
+  <div class="container">
+    <div class="container">
+      <h3 class="weights">Our --instructor</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, reprehenderit?</p>
+    </div>
+    <div class="container d-lg-flex">
+      <div class="card text-center align-center text-dark m-4">
+        <img src="./img/download.jpg" alt="name" class="images ">
+        <div class="card-body">
+          <h3 class="card-title">John doe</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati, quae ab illo numquam aut animi enim rem, alias ratione repellat fugiat mollitia fuga accusantium maxime quia doloribus delectus doloremque.</p>
+          <a href="#" class="card-link"><span class="bi bi-facebook"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-twitter"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-instragram"></span></a>
+        </div>
+      </div>
+      <div class="card text-center align-center text-dark m-4">
+        <img src="./img/download.jpg" alt="name" class="images ">
+        <div class="card-body">
+          <h3 class="card-title">John doe</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati, quae ab illo numquam aut animi enim rem, alias ratione repellat fugiat mollitia fuga accusantium maxime quia doloribus delectus doloremque.</p>
+          <a href="#" class="card-link"><span class="bi bi-facebook"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-twitter"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-instragram"></span></a>
+        </div>
+      </div>
+      <div class="card text-center align-center text-dark m-4">
+        <img src="./img/download.jpg" alt="name" class="images ">
+        <div class="card-body">
+          <h3 class="card-title">John doe</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati, quae ab illo numquam aut animi enim rem, alias ratione repellat fugiat mollitia fuga accusantium maxime quia doloribus delectus doloremque.</p>
+          <a href="#" class="card-link"><span class="bi bi-facebook"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-twitter"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-instragram"></span></a>
+        </div>
+      </div>
+      <div class="card text-center align-center text-dark m-4">
+        <img src="./img/download.jpg" alt="name" class="images ">
+        <div class="card-body">
+          <h3 class="card-title">John doe</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati, quae ab illo numquam aut animi enim rem, alias ratione repellat fugiat mollitia fuga accusantium maxime quia doloribus delectus doloremque.</p>
+          <a href="#" class="card-link"><span class="bi bi-facebook"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-twitter"></span></a>
+          <a href="#" class="card-link"><span class="bi bi-instragram"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--contact info-->
+<section class="bg-light text-dark  align-center d-lg-flex bg-dark-md">
+    <div class="container">
+      <div class="card">
+        <div class="card-header text-center" >
+          <b>Contact Info</b>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Main Location:</b><span class="pl-3">50 Main st</span></li>
+          <li class="list-group-item"><b>Main Location:</b><span class="pl-3">50 Main st</span></li>
+          <li class="list-group-item"><b>Main Location:</b><span class="pl-3">50 Main st</span></li>
+          <li class="list-group-item"><b>Main Location:</b><span class="pl-3">50 Main st</span></li>
+          <li class="list-group-item"><b>Main Location:</b><span class="pl-3">50 Main st</span></li>
+        </ul>
+      </div>
+      
+      </div>
+
+    </div>
+    <div class="mt-5 border-3">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nepal,kathmandu,jorpati&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+  
+</section>
+<!-- this is the last one-->
+
+<!-- <section>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#theone">Please sign up here
+  </button>
+  <div class="modal fade" id="theone" data-bs-backdrop="static">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="labels">Sign up</h5>
+          <button type="button" class="btn-close"  data-bs-dismiss="modal">da</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type='text' placeholder="Email" />
+            <input type="number" placeholder="enter a password which is a num" />
+            <button type="submit">Submit it</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<section>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1>this is the body</h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
